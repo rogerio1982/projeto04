@@ -8,8 +8,12 @@ app = Flask(__name__)
 # Habilita CORS para todas as rotas
 CORS(app)
 
-# Carregar modelo
-modelo = joblib.load('model.joblib')
+import os
+
+# Caminho correto relativo ao arquivo atual
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.joblib")
+modelo = joblib.load(MODEL_PATH)
+
 
 # Colunas usadas no treino
 COLUNAS = [
