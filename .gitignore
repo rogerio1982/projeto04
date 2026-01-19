@@ -1,0 +1,36 @@
+# Ambiente virtual
+venv/
+__pycache__/
+*.pyc
+
+# Dados e modelos grandes
+*.joblib
+*.h5
+*.pkl
+*.csv
+*.db
+*.sqlite3
+
+# Configurações locais / sensíveis
+.env
+config.py
+*.pem
+*.key
+
+# Logs
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Node / front-end (se tiver)
+node_modules/
+dist/
+build/

@@ -13,23 +13,23 @@ modelo = joblib.load('model.joblib')
 
 # Colunas usadas no treino
 COLUNAS = [
-    "Unnamed: 0": 1,
-    "Battery capacity (mAh)": 5000,
-    "Screen size (inches)": 6.5,
-    "Touchscreen": 1,
-    "Resolution x": 1080,
-    "Resolution y": 2400,
-    "Processor": 8,
-    "RAM (MB)": 8192,
-    "Internal storage (GB)": 128,
-    "Rear camera": 48,
-    "Front camera": 16,
-    "Wi-Fi": 1,
-    "Bluetooth": 1,
-    "GPS": 1,
-    "Number of SIMs": 2,
-    "3G": 1,
-    "4G/ LTE": 1
+    "Unnamed: 0",
+    "Battery capacity (mAh)",
+    "Screen size (inches)",
+    "Touchscreen",
+    "Resolution x",
+    "Resolution y",
+    "Processor",
+    "RAM (MB)",
+    "Internal storage (GB)",
+    "Rear camera",
+    "Front camera",
+    "Wi-Fi",
+    "Bluetooth",
+    "GPS",
+    "Number of SIMs",
+    "3G",
+    "4G/ LTE"
 ]
 
 @app.route('/')
